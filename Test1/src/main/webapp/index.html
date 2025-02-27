@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <img src="components/codeX.png" alt="Logo" class="logo">
+                <img src="components/searchpng.png" alt="Search" class="search-icon" id="searchIcon">
+                <input type="text" placeholder="Search..." class="search-bar" id="searchBar">
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><span class="nav-text">Buy</span></li>
+                    <li class="nav-item"><span class="nav-text">Sell</span></li>
+                    <li class="nav-item"><span class="nav-text">Request</span></li>
+                    <li class="nav-item"><a href="login.jsp" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="signup.jsp" class="nav-link">Signup</a></li>
+                    
+                        <button class="btn free-consultation"><a href="inquiry"></a>Free Consultation</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Main Section -->
+<section class="main-section d-flex justify-content-between align-items-center">
+    <!-- Left Side Text -->
+    <div class="left-side">
+        <p class="intro-text">Accelerate software development with ready-to-use source code.<br>Earn recurrent revenue by selling your own source code.</p>
+        <h1 class="title">THE AI-DRIVEN <br> B2B MARKETPLACE<br> FOR BUYING & SELLING<br> SOURCE CODE</h1>
+    </div>
+
+    <!-- Right Side Video in X Shape -->
+    <div class="right-side">
+        <div class="x-shape">
+            <video class="video-content" autoplay loop muted>
+                <source src="components/hero_x_video (1).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</section>
+
+<!-- Desaturated Blue Box with Text and 4 Boxes -->
+<section class="features-section">
+    <!-- Main Desaturated Blue Box -->
+    <div class="desaturated-blue-box">
+        <h2>ALL SOURCE CODE IN CODEX</h2>
+
+        <!-- Four White Boxes Inside -->
+        <div class="boxes-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <span class="tick">&#10004;</span>
+                <p>100% inspected</p>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="box">
+                <span class="tick">&#10004;</span>
+                <p>Guaranteed and supported by the seller</p>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="box">
+                <span class="tick">&#10004;</span>
+                <p>Covered by a business use license</p>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="box">
+                <span class="tick">&#10004;</span>
+                <p>Free to modify and incorporate into your software</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Featured Projects Cards -->
+<section id="featured-projects">
+    <h2>FEATURED PROJECTS</h2>
+    <p>Weekly top-performing source codes from the CodeX community.</p>
+  
+    <div class="product-container">
+      <!-- Product Cards (5 items) -->
+      <div class="product-card">
+        <img src="project1-thumbnail.jpg" alt="Project 1">
+        <p>Short project description goes here.</p>
+        <p class="developer">Developer: John Doe</p>
+        <p class="price">$99.99</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+      <div class="product-card">
+        <img src="project2-thumbnail.jpg" alt="Project 2">
+        <p>Short project description goes here.</p>
+        <p class="developer">Developer: Jane Smith</p>
+        <p class="price">$129.99</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+      <div class="product-card">
+        <img src="project3-thumbnail.jpg" alt="Project 3">
+        <p>Short project description goes here.</p>
+        <p class="developer">Developer: Alex Brown</p>
+        <p class="price">$79.99</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+      <div class="product-card">
+        <img src="project4-thumbnail.jpg" alt="Project 4">
+        <p>Short project description goes here.</p>
+        <p class="developer">Developer: Emma Wilson</p>
+        <p class="price">$59.99</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+      <div class="product-card">
+        <img src="project5-thumbnail.jpg" alt="Project 5">
+        <p>Short project description goes here.</p>
+        <p class="developer">Developer: Chris Lee</p>
+        <p class="price">$119.99</p>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="source-seller-section">
+    <div class="source-box">
+        <h2>SOURCE CODE REQUESTS</h2>
+        <div class="source-card">
+            <img src="components/request.webp" alt="Source Code Request">
+            <div class="source-content">
+                <h3>Request Source Code from the CodeX <br>community</h3>
+                <p>Request a source code from a community of thousands of software development companies or find a request and develop it for price.</p>
+                <button class="source-btn">Create a Request</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="seller-box">
+        <h2>BECOME A SELLER</h2>
+        <div class="seller-card">
+            <img src="components/seller.webp" alt="Become a Seller">
+            <div class="seller-content">
+                <h3>Sell your own project for limitless profit on the CodeX Platform</h3>
+                <p>List your Software Source Code for sale on the CodeX platform and generate passive income in just a few simple steps.</p>
+                <button class="seller-btn">Start Selling</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="popular-section">
+    <div class="popular-box">
+        <h2>POPULAR CATEGORIES</h2>
+        <p>Browse through our latest source codes.</p>
+        <div class="popular-grid">
+            <div class="popular-item"><img src="components/ai.webp" alt="AI"><span>AI</span></div>
+            <div class="popular-item"><img src="components/website.webp" alt="Website"><span>Website</span></div>
+            <div class="popular-item"><img src="components/android.webp" alt="Android"><span>Android</span></div>
+            <div class="popular-item"><img src="components/apple.webp" alt="IOS"><span>IOS</span></div>
+            <div class="popular-item"><img src="components/desktop.webp" alt="Enterprise"><span>Enterprise</span></div>
+            <div class="popular-item"><img src="components/sales.webp" alt="Point Of Sale"><span>Point Of Sale</span></div>
+            <div class="popular-item"><img src="components/PHP.webp" alt="PHP"><span>PHP</span></div>
+            <div class="popular-item"><img src="components/JS.webp" alt="JavaScript"><span>JavaScript</span></div>
+            <div class="popular-item"><img src="components/games.webp" alt="Games"><span>Games</span></div>
+            <div class="popular-item"><img src="components/crypto.webp" alt="Crypto"><span>Crypto</span></div>
+        </div>
+    </div>
+
+    <div class="popular-box">
+        <h2>POPULAR INDUSTRIES</h2>
+        <p>Find tons of premium scripts among these industries currently trending with our users.</p>
+        <div class="popular-grid">
+            <div class="popular-item"><img src="components/web.webp" alt="Web"><span>Web</span></div>
+            <div class="popular-item"><img src="components/automation.webp" alt="Automation"><span>Automation</span></div>
+            <div class="popular-item"><img src="components/ecommerce.webp" alt="Ecommerce"><span>Ecommerce</span></div>
+            <div class="popular-item"><img src="components/payment.webp" alt="Payment"><span>Payment</span></div>
+            <div class="popular-item"><img src="components/finance.webp" alt="Finance"><span>Finance</span></div>
+            <div class="popular-item"><img src="components/retail.webp" alt="Retail"><span>Retail</span></div>
+            <div class="popular-item"><img src="components/mobile.webp" alt="Mobile"><span>Mobile</span></div>
+            <div class="popular-item"><img src="components/social.webp" alt="Social Media"><span>Social Media</span></div>
+            <div class="popular-item"><img src="components/logistic.webp" alt="Logistics"><span>Logistics</span></div>
+            <div class="popular-item"><img src="components/telecom.webp" alt="Telecom"><span>Telecom</span></div>
+        </div>
+    </div>
+</section>
+
+
+<div style="height: 80px;"></div>
+<section class="how-it-works">
+    <h2>HOW IT WORKS?</h2>
+    <div class="how-it-works-container">
+        <div class="step">
+            <img src="components/browse_and_pick.webp" alt="Browse & Pick">
+            <p>Browse and Pick</p>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="step">
+            <img src="components/complete_payment.webp" alt="Complete Payment">
+            <p>Complete Payment</p>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="step">
+            <img src="components/download_code.webp" alt="Download Code">
+            <p>Download Code</p>
+        </div>
+        <div class="arrow">➜</div>
+        <div class="step">
+            <img src="components/customize_project.webp" alt="Customize Project">
+            <p>Customize Project</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="testimonials">
+    <h2>TESTIMONIALS</h2>
+    <p>What our clients say about us</p>
+
+    <div class="testimonial-container">
+        <div class="testimonial-card">
+            <img src="components/Saravanan.png" alt="Chetana College">
+            <div class="testimonial-text">
+                <h4>Saravannan Reddy</h4>
+                <p class="designation">CEO Chetana College</p>
+                <p>CodeX is a great marketplace to sell B2B software Source Code.</p>
+                <p>The Request and Customization features are amazing ways to connect directly with buyers and understand their requirements.</p>
+                <p>We are looking forward to selling more Business Apps on CodeX.</p>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="components/arnav.jpg" alt="Elvee Infotech">
+            <div class="testimonial-text">
+                <h4>Arnav Jadhav</h4>
+                <p class="designation">CEO Elvee Infotech</p>
+                <p>Source Code bought from PieceX can be extremely helpful in accelerating project development, especially when your client is not willing to provide a high budget.</p>
+                <p>Ready-to-use Source Code bought from CodeX helps reduce the overall time and cost of development.</p>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="components/vedantmssu.png" alt="SSR Softech">
+            <div class="testimonial-text">
+                <h4>Vedant Gharat</h4>
+                <p class="designation">CEO SSR Softech</p>
+                <p>CodeX is the best marketplace for selling Source Code, especially with its unique dynamic pricing catered for by CodeX’s AI.</p>
+                <p>This AI helps sellers earn more revenue and also relieves the burden from the team to constantly monitor the price and update it as per market demand.</p>
+                <p>All pricing is completely taken care of by the AI mechanism of CodeX.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<div style="height: 80px;"></div>
+
+<section id="inquiry">
+    <div class="inquiry-container">
+      <h2>Contact Us</h2>
+      <p>If you prefer, you can inquire and we will get back to you!</p>
+  
+      <form class="inquiry-form" method="post" action="Contact">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="phoneno" placeholder="Your phone number">
+        <textarea placeholder="Message*" name="message" required></textarea>
+        <input type="submit">
+      </form>
+    </div>
+  </section>
+  
+  
+  
+
+  <div style="height: 80px;"></div>
+
+  <section id="spread-word">
+    <h2>SPREAD THE WORD</h2>
+  
+    <div class="partner-container">
+      <div class="partner-card">
+        <img src="components/affiliate.webp" alt="Affiliate Partner">
+        <h3>Become an Affiliate Partner</h3>
+        <p>Earn the first purchase made by buyers who sign up using your affiliate code.</p>
+        <p>This program is perfect for individuals and influencers with online platforms. Share your affiliate code and start earning rewards effortlessly!</p>
+        <button class="get-started"><a href="affiliate.jsp">Get started</button>
+      </div>
+  
+      <div class="partner-card">
+        <img src="components/sales_partner.webp" alt="Sales Partner">
+        <h3>Become a Sales Partner</h3>
+        <p>Earn on every purchase made by buyers who register using your affiliate code.</p>
+        <p>Ideal both for sales professionals with strong networks and businesses and sales agencies. Monetize your client base and expand your revenue potential by partnering.</p>
+        <button class="get-started"><a href="Sales.jsp">Get started</button>
+      </div>
+  
+    </div>
+  </section>
+  
+  <div style="height: 80px;"></div>
+
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>By Category</h3>
+            <ul>
+                <li><a href="#">Web Source Codes</a></li>
+                <li><a href="#">iOS</a></li>
+                <li><a href="#">Android Apps</a></li>
+                <li><a href="#">PHP Scripts</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Media</h3>
+            <ul>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>License</h3>
+            <ul>
+                <li><a href="#">License</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Management</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Terms of Service</h3>
+            <ul>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>About CodeX</h3>
+            <ul>
+                <li><a href="#">Become an Affiliate</a></li>
+                <li><a href="#">Become a Sales Partner</a></li>
+                <li><a href="#">How it Works</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Partners</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <img src="components/codeX.png" alt="CodeX Logo" class="footer-logo"> 
+        <div class="social-icons">
+            <a href="#"><img src="components/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="components/twitterX.webp" alt="Twitter"></a>
+            <a href="#"><img src="components/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="components/linkedin.svg" alt="LinkedIn"></a>
+            <a href="#"><img src="components/youtube.svg" alt="YouTube"></a>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
